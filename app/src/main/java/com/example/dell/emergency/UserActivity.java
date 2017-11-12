@@ -16,7 +16,7 @@ public class UserActivity extends AppCompatActivity {
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference databaseReference=database.getReference("Family").child("Family1");
         User user1=new User("Shobhit","","","","","","","","",0,0l);
-        databaseReference.setValue(user1);
+        databaseReference.child().setValue(user1);
 
     }
 }
