@@ -16,6 +16,7 @@
         android:textColor="@android:color/black"
         android:textSize="20dp" />
     <EditText
+        android:id="@+id/ful_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20dp"/>
@@ -31,6 +32,7 @@
         android:layout_height="wrap_content">
 
         <RadioGroup
+            android:id="@+id/radio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -62,6 +64,7 @@
         android:textColor="@android:color/black"
         android:textSize="20dp" />
     <EditText
+        android:id="@+id/nationality"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20dp"/>
@@ -73,6 +76,7 @@
         android:textColor="@android:color/black"
         android:textSize="20dp" />
     <EditText
+        android:id="@+id/religion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20dp"/>
@@ -84,6 +88,7 @@
         android:textColor="@android:color/black"
         android:textSize="20dp" />
     <EditText
+        android:id="@+id/age"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20dp"/>
@@ -96,6 +101,7 @@
         android:textSize="20dp" />
 
     <EditText
+        android:id="@+id/DOB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20dp"/>
@@ -107,6 +113,7 @@
         android:textColor="@android:color/black"
         android:textSize="20dp" />
     <EditText
+        android:id="@+id/marital_status"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20dp"/>
@@ -120,7 +127,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:id="@+id/address"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -131,7 +139,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:id="@+id/contact_no."/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -142,7 +151,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:id="@+id/emailid"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -161,7 +171,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="17dp"/>
+        android:textSize="17dp"
+        android:id="@+id/name"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -173,7 +184,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="17dp"/>
+        android:textSize="17dp"
+        android:id="@+id/contact_no.1"/>
 
 
 </LinearLayout>
